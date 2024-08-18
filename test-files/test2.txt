@@ -1,0 +1,105 @@
+~$ ./hw3
+Number of readers: 7
+Number of writers: 3
+
+Thread No  Validity(real/dummy)  Role(reader/writer)  Value read/written
+2          real                  reader               0
+6          dummy                 reader               No permission
+4          dummy                 reader               No permission
+1          dummy                 reader               No permission
+2          dummy                 reader               No permission
+3          dummy                 writer               No permission
+5          dummy                 reader               No permission
+7          dummy                 reader               No permission
+1          real                  reader               0
+3          dummy                 reader               No permission
+1          dummy                 writer               No permission
+2          dummy                 writer               No permission
+5          real                  reader               0
+3          real                  reader               0
+6          real                  reader               0
+4          real                  reader               0
+7          real                  reader               0
+1          real                  writer               8513
+2          real                  writer               7318
+3          real                  writer               9678
+2          real                  reader               9678
+4          dummy                 reader               No permission
+6          dummy                 reader               No permission
+1          dummy                 reader               No permission
+3          dummy                 writer               No permission
+2          dummy                 reader               No permission
+1          real                  reader               9678
+5          dummy                 reader               No permission
+3          dummy                 reader               No permission
+7          dummy                 reader               No permission
+1          dummy                 writer               No permission
+2          dummy                 writer               No permission
+5          real                  reader               9678
+3          real                  reader               9678
+6          real                  reader               9678
+4          real                  reader               9678
+7          real                  reader               9678
+1          real                  writer               8072
+2          real                  writer               9600
+3          real                  writer               8293
+4          dummy                 reader               No permission
+2          real                  reader               8293
+3          dummy                 writer               No permission
+2          dummy                 reader               No permission
+6          dummy                 reader               No permission
+1          dummy                 reader               No permission
+5          dummy                 reader               No permission
+7          dummy                 reader               No permission
+3          dummy                 reader               No permission
+1          dummy                 writer               No permission
+2          dummy                 writer               No permission
+1          real                  reader               8293
+5          real                  reader               8293
+3          real                  reader               8293
+6          real                  reader               8293
+4          real                  reader               8293
+7          real                  reader               8293
+1          real                  writer               859
+2          real                  writer               7073
+3          real                  writer               1374
+2          real                  reader               1374
+4          dummy                 reader               No permission
+2          dummy                 reader               No permission
+1          dummy                 reader               No permission
+3          dummy                 writer               No permission
+7          dummy                 reader               No permission
+1          dummy                 writer               No permission
+5          dummy                 reader               No permission
+3          dummy                 reader               No permission
+2          dummy                 writer               No permission
+6          dummy                 reader               No permission
+1          real                  reader               1374
+3          real                  reader               1374
+5          real                  reader               1374
+6          real                  reader               1374
+4          real                  reader               1374
+7          real                  reader               1374
+2          real                  writer               6561
+1          real                  writer               4741
+3          real                  writer               4222
+2          real                  reader               4222
+3          dummy                 writer               No permission
+2          dummy                 reader               No permission
+1          dummy                 writer               No permission
+1          real                  reader               4222
+3          real                  reader               4222
+6          real                  reader               4222
+7          dummy                 reader               No permission
+3          dummy                 reader               No permission
+5          dummy                 reader               No permission
+4          dummy                 reader               No permission
+6          dummy                 reader               No permission
+2          dummy                 writer               No permission
+1          dummy                 reader               No permission
+5          real                  reader               4222
+4          real                  reader               4222
+7          real                  reader               4222
+2          real                  writer               949
+1          real                  writer               1677
+3          real                  writer               7697
